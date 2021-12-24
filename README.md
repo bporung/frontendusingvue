@@ -1,4 +1,4 @@
-# frontendusingvue
+# FrontendUsingVue
 
 ## Project setup
 ```
