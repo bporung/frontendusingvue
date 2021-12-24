@@ -1,6 +1,7 @@
 # FrontendUsingVue
+I'am using Node v16.3.0.
 
-## Project setup
+## Setup
 ```
 npm install
 ```
@@ -9,16 +10,18 @@ npm install
 ```
 npm run serve
 ```
+By default you can access [localhost:8080](http://localhost:8080)
 
-### Compiles and minifies for production
+
+## DOCKER
+
+## Build and setup
 ```
-npm run build
+docker build -t frontendusingvue .
 ```
 
-### Lints and fixes files
+### RUN Docker
 ```
-npm run lint
+docker run -p 8000:80 -it --name frontendusingvue frontendusingvue
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+You can access [localhost:8000](http://localhost:8000)
